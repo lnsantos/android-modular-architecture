@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Characters list-->
+    <string name="characters_list_empty_text">Lista de personagens vazia</string>
+    <string name="characters_list_error_text">Ops... ocorreu um erro ao baixar a lista de personagens, porfavor araste para baixo e tente novamente.</string>
+    <string name="characters_list_add_error_text">Ocorreu um problema na busca de novos personagens</string>
+    <string name="characters_list_add_retry_button">Responder</string>
+
+    <!--Character detail-->
+    <string name="character_detail_dialog_loading_text">Carregando detalhes</string>
+    <string name="character_detail_dialog_error_text">Ocorreu um erro na busca, tente mais tarde.</string>
+    <string name="character_detail_added_to_favorite_message">Adicionado a sua lista de favoritos</string>
+    <string name="character_detail_image_content_description">Imagem do personagem selecionada.</string>
+    <string name="character_detail_floating_button_content_description">Adicione o personagem aos favoritos.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dynamic module titles-->
+    <string name="feature_home">Inicio</string>
+    <string name="feature_characters_list">Lista de personagens</string>
+    <string name="feature_characters_favorite">Personagens favoritos</string>
+</resources>

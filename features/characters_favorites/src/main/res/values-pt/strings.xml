@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Character favorite-->
+    <string name="characters_favorite_list_empty_text">Sua lista de favoritos está vazia</string>
+    <string name="characters_favorite_list_item_image_content_description">Imagem da lista de personagens atuais</string>
+</resources>

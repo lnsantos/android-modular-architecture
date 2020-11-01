@@ -37,7 +37,7 @@ interface MarvelService {
      * @param timestamp A digital current record of the time.
      * @return Response for single character resource.
      */
-    @GET("/v1/public/characters/{id}")
+    @GET(ApiRouters.ROUTER_API_DOWNLOAD_CHARACTER)
     suspend fun getCharacter(
         @Path("id") id: Long,
         @Query("apikey") apiKey: String,
@@ -55,7 +55,7 @@ interface MarvelService {
      * @param limit Limit the result set to the specified number of resources.
      * @return Response for comic characters resource.
      */
-    @GET("/v1/public/characters")
+    @GET(ApiRouters.ROUTER_API_DOWNLOAD_CHARACTERS)
     suspend fun getCharacters(
         @Query("apikey") apiKey: String,
         @Query("hash") hash: String,
